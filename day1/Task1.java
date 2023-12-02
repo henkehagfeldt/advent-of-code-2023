@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class Task1 {
     public static void main(String[] args) throws IOException {
-        List<String> calibrationValues = readLinesOfFile("day1/day1.input");
+        List<String> calibrationValues = readLinesOfFile("day1/data.input");
 
         Integer result = calibrationValues.stream()
             .map(Task1::extractFirstAndLast)

@@ -8,7 +8,8 @@ public class Printer {
         System.out.println(String.format(text, args));
     }
 
-    public static void print(List<String> stringList) {
-        System.out.println(stringList);
+    public static void print(List<Object> list) {
+        System.out.println(list);
     }
+
 }
